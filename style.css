@@ -154,7 +154,24 @@
         flex-direction: row;
         gap: 20px; /*distancia iguais entre os elementos*/
      }
-     .xbox{
-height: ;
+     .banner-xbox{
+     height: 450px;
+    width: 850px;
+    background-image:url("./assents/x-box.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 
      }
+     .texto-xbox{
+     color: #ffffff;
+     justify-content: end;
+     display: flex;
+
+     }
+     .banner-xbox{
+     display: flex;
+     justify-content: end;
+     }
+
