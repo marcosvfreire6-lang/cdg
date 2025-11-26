@@ -1,188 +1,241 @@
+* {
 
-*{
-    
-    padding: 0%;
-    margin: 0%;
-    }
-    
-    
-    body{
-        background-color: #1a1a1a;
-    }
-    
-    .banner{
-    height: 450px;
-    width: 850px;
-    background-image: url("./assents/Banner.png"); /*ele adiciona uma imagem como fundo*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    
-    
-    }
-    
-    li a{
-    
-        text-decoration: none;
-        color: #ffffff;
-        font-size: 20px;
-        padding: 25px;
-     }
-    
-    ul{
-        display: flex; /*ativa a propriedade de alinhamento*/
-        flex-direction: row; /*coloca os elementos na horizontal*/
-    }
-    
-    li{
-    list-style: none; /*remove os pontos das lista*/
-    }
-    
-    nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    }
-    
-     #logo{
-    height: 120px;
-    width: 120px;
-     }
-    
-     .bi{
-    font-size: 40px;
-    color: #4c544c;
-    
-     }
-    
-     .texto-banner{
-        color: #ffffff;
-       font-size: 25px;
-       
-     }
-    
-     .btn{
-        height: 45px;
-        width: 115px;
-        border-radius: 55px;/*Deixa a  borda redonda*/
-        border: none; /*Serve para remover a borda*/
-        color: #ffffff;
-        font-size: 19px;
-        background-color: #333333;
-        margin: 30px;/*distancia o botao do texto*/
-     }
-     
-     .banner-estrutura{
-        width: 220px;
-        margin: 30px;
-     }
-     
-     .section-banner {
-        display: flex;
-        justify-content: center;  /* Centraliza horizontalmente */
-        padding: 40px 0;   /* Mantém espaço ao redor */
-        }
-    
-        .titulo {
-       color: #ffffff;
-       font-size: 35px;
-       font-weight: bold;
-       }
-    
-        .estrutura-titulo{
-       justify-content: center;
-       display: flex;
-       padding: 30px;
-      }
-      
-      .produtos{
-       height: 380px;
-       width: 250px;
-      }
-      .valor{
-       color: #ffffff;
-       font-weight: bold;
-       font-size: 30px;
-      }
-    
-      .card{
-       width: 250px;
-       height: 430px;
-      }
-  
-    
-      .card-texto{
-       justify-content: center;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-      }
-    
-      .cores{
-       height: 20px;
-       width: 15px;
-       border-radius: 50%;
+   padding: 0%;
+   margin: 0%;
+}
 
-     
-      }
-      .vermelho{
-       background-color: brown;
-      }
-      .azul{
-       background-color: blue;
-      }
-      .amarelo{
-       background-color: chartreuse;
-      }
-      .branco{
-        background-color: #ffffff;
-      }
 
-      .caixa-cores{
-      flex-direction: row;
-     display: flex;
-     padding: 5px;
+body {
+   background-color: #1a1a1a;
+}
 
-     }
-     
-     .carousel{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        gap: 20px; /*distancia iguais entre os elementos*/
-     }
-     .banner-xbox{
-     height: 450px;
-    width: 850px;
-    background-image:url("./assents/x-box.png");
-    background-repeat:no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: start;
+.banner {
+   height: 450px;
+   width: 850px;
+   background-image: url("./assents/Banner.png");
+   /*ele adiciona uma imagem como fundo*/
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
 
-     }
-     .texto-xbox{
-     color: #ffffff;
-     font-size: 25px;
-     display: flex;
 
-     }
-     .banner-xbox{
-     display: flex;
-     justify-content: end;
-     }
-     .caixa-xbox{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 120px;
-      margin: 20px;
-   
-      
-     }
-     
+}
 
+li a {
+
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 20px;
+   padding: 25px;
+}
+
+ul {
+   display: flex;
+   /*ativa a propriedade de alinhamento*/
+   flex-direction: row;
+   /*coloca os elementos na horizontal*/
+}
+
+li {
+   list-style: none;
+   /*remove os pontos das lista*/
+}
+
+nav {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#logo {
+   height: 120px;
+   width: 120px;
+}
+
+.bi {
+   font-size: 40px;
+   color: #4c544c;
+
+}
+
+.texto-banner {
+   color: #ffffff;
+   font-size: 25px;
+
+}
+
+.btn {
+   height: 45px;
+   width: 115px;
+   border-radius: 55px;
+   /*Deixa a  borda redonda*/
+   border: none;
+   /*Serve para remover a borda*/
+   color: #ffffff;
+   font-size: 19px;
+   background-color: #333333;
+   margin: 30px;
+   /*distancia o botao do texto*/
+}
+
+.banner-estrutura {
+   width: 220px;
+   margin: 30px;
+}
+
+.section-banner {
+   display: flex;
+   justify-content: center;
+   /* Centraliza horizontalmente */
+   padding: 40px 0;
+   /* Mantém espaço ao redor */
+}
+
+.titulo {
+   color: #ffffff;
+   font-size: 35px;
+   font-weight: bold;
+}
+
+.estrutura-titulo {
+   justify-content: center;
+   display: flex;
+   padding: 30px;
+}
+
+.produtos {
+   height: 380px;
+   width: 250px;
+}
+
+.valor {
+   color: #ffffff;
+   font-weight: bold;
+   font-size: 30px;
+}
+
+.card {
+   width: 250px;
+   height: 430px;
+}
+
+
+.card-texto {
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.cores {
+   height: 20px;
+   width: 15px;
+   border-radius: 50%;
+
+
+}
+
+.vermelho {
+   background-color: brown;
+}
+
+.azul {
+   background-color: blue;
+}
+
+.amarelo {
+   background-color: chartreuse;
+}
+
+.branco {
+   background-color: #ffffff;
+}
+
+.caixa-cores {
+   flex-direction: row;
+   display: flex;
+   padding: 5px;
+
+}
+
+.carousel {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   gap: 20px;
+   /*distancia iguais entre os elementos*/
+}
+
+.banner-xbox {
+   height: 450px;
+   width: 850px;
+   background-image: url("./assents/x-box.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: start;
+
+}
+
+.texto-xbox {
+   color: #ffffff;
+   font-size: 25px;
+   display: flex;
+
+}
+
+.banner-xbox {
+   display: flex;
+   justify-content: end;
+}
+
+.caixa-xbox {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 120px;
+   margin: 20px;
+
+
+}
+
+.estrutura-rodape {
+   height: 450px;
+   width: 850px;
+   color: rgb(255, 0, 0);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: start;
+
+}
+
+.caixa-rodape {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   gap: 80px;
+   padding: 30px;
+}
+
+.info1 {
+   width: 300px;
+   height: 150px;
+   background-color: aqua;
+}
+
+.texto-rodape {
+   font-size: 30px;
+   color: #ffffff;
+}
+
+.info2 {
+   width: 300px;
+   height: 150px;
+   background-color: aqua;
+}
